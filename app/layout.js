@@ -5,7 +5,11 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Haris Hummam",
-  description: "A Passionate Full Stack Developer skilled in crafting innovative web solutions from concept to deployment. Constantly learning and collaborating to build impactful projects.",
+  description:
+    "A Passionate Full Stack Developer skilled in crafting innovative web solutions from concept to deployment. Constantly learning and collaborating to build impactful projects.",
+  icons: {
+    icon: "/public/title.png",
+  },
 };
 
 export default function RootLayout({ children }) {

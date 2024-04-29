@@ -14,7 +14,7 @@ export default function Home() {
             src={doodle}
             className="block contrast-150 opacity-65 w-[1000px]"
           />
-          <div class="flex justify-center text-center text-white font-montserrat animate-fade-up animate-once animate-duration-[1500ms]">
+          <div className="flex justify-center text-center text-white font-montserrat animate-fade-up animate-once animate-duration-[1500ms]">
             <div className="">
               <div className="flex items-center justify-center mb-[8rem]">
                 <Image
@@ -23,10 +23,10 @@ export default function Home() {
                   className="absolute rounded-full shadow-2xl border-gray-800 border-[8px] mt-5"
                 />
               </div>
-              <h1 class="text-center text-4xl mb-4 drop-shadow-2xl-shadow-md font-normal">
+              <h1 className="text-center text-4xl mb-4 drop-shadow-2xl-shadow-md font-normal">
                 HARIS HUMMAM
               </h1>
-              <p class="text-center text-lg max-w-xl">
+              <p className="text-center text-lg max-w-xl">
                 A Passionate Full Stack Developer skilled in crafting innovative
                 web solutions from concept to deployment. Constantly learning
                 and collaborating to build impactful projects.

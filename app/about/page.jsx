@@ -145,13 +145,13 @@ const Page = () => {
                   </ul>
                 </div>
               </div>
-              <div class="bg-gradient-to-r via-white from-transparent to-transparent h-[1px] mt-4 w-[230px] lg:w-full"></div>
+              <div className="bg-gradient-to-r via-white from-transparent to-transparent h-[1px] mt-4 w-[230px] lg:w-full"></div>
               <h3 className="font-montserrat font-normal text-white text-md lg:text-xl mt-5">
                 EXPERIENCE
               </h3>
               <ul className="text-white font-light text-md mt-4 w-[230px] lg:w-full">
                 <li>
-                  <div class="=flex-row">
+                  <div className="=flex-row">
                     <div className="flex items-center">
                       <FaDotCircle className="text-[10px]" />
                       &nbsp;&nbsp;
@@ -176,13 +176,13 @@ const Page = () => {
                   </div>
                 </li>
               </ul>
-              <div class="bg-gradient-to-r via-white from-transparent to-transparent h-[1px] mt-4 w-[230px] lg:w-full"></div>
+              <div className="bg-gradient-to-r via-white from-transparent to-transparent h-[1px] mt-4 w-[230px] lg:w-full"></div>
               <h3 className="font-montserrat font-normal text-white text-xl mt-5">
                 EDUCATION
               </h3>
               <ul className="text-white font-light text-md mt-4 w-[230px] lg:w-full">
                 <li>
-                  <div class="=flex-row">
+                  <div className="=flex-row">
                     <div className="flex items-center">
                       <FaDotCircle className="text-[10px]" />
                       &nbsp;&nbsp;
@@ -201,7 +201,7 @@ const Page = () => {
                   </div>
                 </li>
                 <li className="mt-2">
-                  <div class="=flex-row">
+                  <div className="=flex-row">
                     <div className="flex items-center">
                       <FaDotCircle className="text-[10px]" />
                       &nbsp;&nbsp;
@@ -220,7 +220,7 @@ const Page = () => {
                   </div>
                 </li>
                 <li className="mt-2">
-                  <div class="=flex-row">
+                  <div className="=flex-row">
                     <div className="flex items-center">
                       <FaDotCircle className="text-[10px]" />
                       &nbsp;&nbsp;
@@ -239,7 +239,6 @@ const Page = () => {
                   </div>
                 </li>
               </ul>
-              {/* <div class="bg-gradient-to-r via-white from-transparent to-transparent h-[1px] mt-4"></div> */}
             </div>
           </div>
         </div>

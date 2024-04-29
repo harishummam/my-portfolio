@@ -36,22 +36,22 @@ const Page = () => {
           </div>
         </div>
         <div className="col-span-12 md:col-span-6">
-          <div class="px-4 mx-auto max-w-screen-md">
-            <h2 class="mb-6 text-2xl font-montserrat tracking-tight font-normal text-center text-white">
+          <div className="px-4 mx-auto max-w-screen-md">
+            <h2 className="mb-6 text-2xl font-montserrat tracking-tight font-normal text-center text-white">
               Send me a message
             </h2>
-            <form action="#" class="space-y-8">
+            <form action="#" className="space-y-8">
               <div>
                 <label
                   for="email"
-                  class="block mb-2 text-sm font-medium text-white font-montserrat"
+                  className="block mb-2 text-sm font-medium text-white font-montserrat"
                 >
                   Your Email
                 </label>
                 <input
                   type="email"
                   id="email"
-                  class="block p-2.5 font-montserrat w-full text-sm  rounded-lg shadow-sm border bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-primary-500 focus:border-primary-500"
+                  className="block p-2.5 font-montserrat w-full text-sm  rounded-lg shadow-sm border bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-primary-500 focus:border-primary-500"
                   placeholder="name@example.com"
                   required
                 />
@@ -59,35 +59,35 @@ const Page = () => {
               <div>
                 <label
                   for="subject"
-                  class="block mb-2 text-sm font-medium text-white font-montserrat"
+                  className="block mb-2 text-sm font-medium text-white font-montserrat"
                 >
                   Subject
                 </label>
                 <input
                   type="text"
                   id="subject"
-                  class="block p-2.5 font-montserrat w-full text-sm  rounded-lg shadow-sm border bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-primary-500 focus:border-primary-500"
+                  className="block p-2.5 font-montserrat w-full text-sm  rounded-lg shadow-sm border bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-primary-500 focus:border-primary-500"
                   placeholder="How can I help you?"
                   required
                 />
               </div>
-              <div class="sm:col-span-2">
+              <div className="sm:col-span-2">
                 <label
                   for="message"
-                  class="block mb-2 text-sm font-medium text-white font-montserrat"
+                  className="block mb-2 text-sm font-medium text-white font-montserrat"
                 >
                   Your Message
                 </label>
                 <textarea
                   id="message"
                   rows="6"
-                  class="block p-2.5 font-montserrat w-full text-sm  rounded-lg shadow-sm border bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-primary-500 focus:border-primary-500"
+                  className="block p-2.5 font-montserrat w-full text-sm  rounded-lg shadow-sm border bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-primary-500 focus:border-primary-500"
                   placeholder="Leave a message..."
                 ></textarea>
               </div>
               <button
                 type="submit"
-                class="py-3 px-5 text-sm font-montserrat font-medium text-center text-white rounded-lg border-[2px] border-solid border-slate-500 hover:bg-slate-500"
+                className="py-3 px-5 text-sm font-montserrat font-medium text-center text-white rounded-lg border-[2px] border-solid border-slate-500 hover:bg-slate-500"
               >
                 Send message
               </button>

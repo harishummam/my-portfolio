@@ -163,7 +163,7 @@ const Page = () => {
                       <FaDotCircle className="text-[10px] invisible" />
                       &nbsp;&nbsp;
                       <p className="font-montserrat font-normal text-white text-sm lg:text-md">
-                        6 Months, 07/2023 - 12/2023
+                        6 Months, 07 / 2023 - 12 / 2023
                       </p>
                     </div>
                     <div className="flex items-center">
@@ -195,7 +195,7 @@ const Page = () => {
                       <FaDotCircle className="text-[10px] invisible" />
                       &nbsp;&nbsp;
                       <p className="font-montserrat font-normal text-white text-sm lg:text-md">
-                        BS Software Engineering | 06/2024
+                        BS Software Engineering | 06 / 2024
                       </p>
                     </div>
                   </div>
@@ -214,7 +214,7 @@ const Page = () => {
                       <FaDotCircle className="text-[10px] invisible" />
                       &nbsp;&nbsp;
                       <p className="font-montserrat font-normal text-white text-sm lg:text-md">
-                        HSSC | 05/2020
+                        HSSC | 05 / 2020
                       </p>
                     </div>
                   </div>
@@ -233,7 +233,7 @@ const Page = () => {
                       <FaDotCircle className="text-[10px] invisible" />
                       &nbsp;&nbsp;
                       <p className="font-montserrat font-normal text-white text-sm lg:text-md">
-                        SSC | 04/2018
+                        SSC | 04 / 2018
                       </p>
                     </div>
                   </div>

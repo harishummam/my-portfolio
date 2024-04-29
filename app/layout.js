@@ -8,7 +8,7 @@ export const metadata = {
   description:
     "A Passionate Full Stack Developer skilled in crafting innovative web solutions from concept to deployment. Constantly learning and collaborating to build impactful projects.",
   icons: {
-    icon: "/public/title.png",
+    icon: "/title.png",
   },
 };
 

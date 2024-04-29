@@ -9,11 +9,11 @@ const Page = () => {
   return (
     <main className="relative min-h-screen p-10 bg-gradient-to-r from-slate-600 to-slate-800">
       <NavBar />
-      <div className="animate-fade-up animate-once animate-duration-[1500ms]">
-        <h1 className="text-center font-montserrat font-normal text-white text-3xl my-8">
+      <div className=" animate-fade-up animate-once animate-duration-[1500ms]">
+        <h1 className="text-center font-montserrat font-normal text-white text-lg lg:text-3xl my-8">
           ABOUT
         </h1>
-        <p className="text-center font-montserrat font-normal text-white text-lg my-8 mx-8">
+        <p className="text-center font-montserrat font-normal text-white text-sm lg:text-lg my-8 mx-8">
           I am a Full Stack Developer adept in all stages of advanced web
           development. Knowledgeable in user interface, testing, and debugging
           processes. Equipped with a diverse and promising skill set. Able to
@@ -22,19 +22,19 @@ const Page = () => {
         </p>
         <div className="mt-10 mb-24 mx-10 min-h-[30rem]">
           <div className="grid grid-cols-12 gap-10">
-            <div className="col-span-4">
-              <Image src={haris2} width={500} />
+            <div className="col-span-12 lg:col-span-4 w-[240px] lg:w-full">
+              <Image src={haris2} />
             </div>
-            <div className="col-span-8">
-              <h3 className="font-montserrat font-normal text-white text-xl">
+            <div className="col-span-12 lg:col-span-8 w-[230px] lg:w-full">
+              <h3 className="font-montserrat font-normal text-white text-md lg:text-xl">
                 SKILLS
               </h3>
               <div className="grid grid-cols-12 mt-4">
-                <div className="col-span-6">
-                  <h3 className="font-montserrat font-medium text-white text-lg">
+                <div className="col-span-12 lg:col-span-6">
+                  <h3 className="font-montserrat font-medium text-white text-sm lg:text-lg">
                     Programming Languages
                   </h3>
-                  <ul className="text-white font-light text-md">
+                  <ul className="text-white font-light text-sm lg:text-md">
                     <li>
                       <div className="flex items-center">
                         <FaDotCircle className="text-[10px]" />
@@ -65,11 +65,11 @@ const Page = () => {
                     </li>
                   </ul>
                 </div>
-                <div className="col-span-6">
-                  <h3 className="font-montserrat font-medium text-white text-lg">
+                <div className="col-span-12 mt-3 lg:mt-0 lg:col-span-6">
+                  <h3 className="font-montserrat font-medium text-white text-sm lg:text-lg">
                     Development Technologies
                   </h3>
-                  <ul className="text-white font-light text-md">
+                  <ul className="text-white font-light text-sm lg:text-md">
                     <li>
                       <div className="flex items-center">
                         <FaDotCircle className="text-[10px]" />
@@ -102,11 +102,11 @@ const Page = () => {
                 </div>
               </div>
               <div className="grid grid-cols-12 mt-4">
-                <div className="col-span-6">
-                  <h3 className="font-montserrat font-medium text-white text-lg">
+                <div className="col-span-12 lg:col-span-6">
+                  <h3 className="font-montserrat font-medium text-white text-sm lg:text-lg">
                     Frontend Design
                   </h3>
-                  <ul className="text-white font-light text-md">
+                  <ul className="text-white font-light text-sm lg:text-md">
                     <li>
                       <div className="flex items-center">
                         <FaDotCircle className="text-[10px]" />
@@ -123,11 +123,11 @@ const Page = () => {
                     </li>
                   </ul>
                 </div>
-                <div className="col-span-6">
-                  <h3 className="font-montserrat font-medium text-white text-lg">
+                <div className="col-span-12 mt-3 lg:mt-0 lg:col-span-6">
+                  <h3 className="font-montserrat font-medium text-white text-sm lg:text-lg">
                     Database Operations
                   </h3>
-                  <ul className="text-white font-light text-md">
+                  <ul className="text-white font-light text-sm lg:text-md">
                     <li>
                       <div className="flex items-center">
                         <FaDotCircle className="text-[10px]" />
@@ -145,24 +145,24 @@ const Page = () => {
                   </ul>
                 </div>
               </div>
-              <div class="bg-gradient-to-r via-white from-transparent to-transparent h-[1px] mt-4"></div>
-              <h3 className="font-montserrat font-normal text-white text-xl mt-5">
+              <div class="bg-gradient-to-r via-white from-transparent to-transparent h-[1px] mt-4 w-[230px] lg:w-full"></div>
+              <h3 className="font-montserrat font-normal text-white text-md lg:text-xl mt-5">
                 EXPERIENCE
               </h3>
-              <ul className="text-white font-light text-md mt-4">
+              <ul className="text-white font-light text-md mt-4 w-[230px] lg:w-full">
                 <li>
                   <div class="=flex-row">
                     <div className="flex items-center">
                       <FaDotCircle className="text-[10px]" />
                       &nbsp;&nbsp;
-                      <p className="font-montserrat font-normal text-white text-lg">
+                      <p className="font-montserrat font-normal text-white text-md lg:text-lg">
                         LOGIXOS | MERN Stack Developer (Remote)
                       </p>
                     </div>
                     <div className="flex items-center">
                       <FaDotCircle className="text-[10px] invisible" />
                       &nbsp;&nbsp;
-                      <p className="font-montserrat font-normal text-white text-md">
+                      <p className="font-montserrat font-normal text-white text-sm lg:text-md">
                         6 Months, 07/2023 - 12/2023
                       </p>
                     </div>
@@ -176,17 +176,17 @@ const Page = () => {
                   </div>
                 </li>
               </ul>
-              <div class="bg-gradient-to-r via-white from-transparent to-transparent h-[1px] mt-4"></div>
+              <div class="bg-gradient-to-r via-white from-transparent to-transparent h-[1px] mt-4 w-[230px] lg:w-full"></div>
               <h3 className="font-montserrat font-normal text-white text-xl mt-5">
                 EDUCATION
               </h3>
-              <ul className="text-white font-light text-md mt-4">
+              <ul className="text-white font-light text-md mt-4 w-[230px] lg:w-full">
                 <li>
                   <div class="=flex-row">
                     <div className="flex items-center">
                       <FaDotCircle className="text-[10px]" />
                       &nbsp;&nbsp;
-                      <p className="font-montserrat font-normal text-white text-lg">
+                      <p className="font-montserrat font-normal text-white text-md lg:text-lg">
                         Institute of Management Sciences | Peshawar, KPK
                         (Pakistan)
                       </p>
@@ -194,7 +194,7 @@ const Page = () => {
                     <div className="flex items-center">
                       <FaDotCircle className="text-[10px] invisible" />
                       &nbsp;&nbsp;
-                      <p className="font-montserrat font-normal text-white text-md">
+                      <p className="font-montserrat font-normal text-white text-sm lg:text-md">
                         BS Software Engineering | 06/2024
                       </p>
                     </div>
@@ -205,7 +205,7 @@ const Page = () => {
                     <div className="flex items-center">
                       <FaDotCircle className="text-[10px]" />
                       &nbsp;&nbsp;
-                      <p className="font-montserrat font-normal text-white text-lg">
+                      <p className="font-montserrat font-normal text-white text-md lg:text-lg">
                         Sir Syed College Mall Road | Rawalpindi, Panjab
                         (Pakistan)
                       </p>
@@ -213,7 +213,7 @@ const Page = () => {
                     <div className="flex items-center">
                       <FaDotCircle className="text-[10px] invisible" />
                       &nbsp;&nbsp;
-                      <p className="font-montserrat font-normal text-white text-md">
+                      <p className="font-montserrat font-normal text-white text-sm lg:text-md">
                         HSSC | 05/2020
                       </p>
                     </div>
@@ -224,7 +224,7 @@ const Page = () => {
                     <div className="flex items-center">
                       <FaDotCircle className="text-[10px]" />
                       &nbsp;&nbsp;
-                      <p className="font-montserrat font-normal text-white text-lg">
+                      <p className="font-montserrat font-normal text-white text-md lg:text-lg">
                         Army Public School and College (FWO) | Rawalpindi,
                         Panjab (Pakistan)
                       </p>
@@ -232,7 +232,7 @@ const Page = () => {
                     <div className="flex items-center">
                       <FaDotCircle className="text-[10px] invisible" />
                       &nbsp;&nbsp;
-                      <p className="font-montserrat font-normal text-white text-md">
+                      <p className="font-montserrat font-normal text-white text-sm lg:text-md">
                         SSC | 04/2018
                       </p>
                     </div>

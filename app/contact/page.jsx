@@ -6,12 +6,12 @@ const Page = () => {
   return (
     <main className="relative min-h-screen p-10 bg-gradient-to-r from-slate-600 to-slate-800">
       <NavBar />
-      <h1 className="text-center font-montserrat font-normal text-white text-3xl my-8 animate-fade-up animate-once animate-duration-[1500ms]">
+      <h1 className="text-center font-montserrat font-normal text-white text-lg md:text-3xl my-8 animate-fade-up animate-once animate-duration-[1500ms]">
         MY CONTACT INFO
       </h1>
-      <div className="grid grid-cols-2 gap-3 mx-20 h-[34rem] my-20 animate-fade-up animate-once animate-duration-[1500ms]">
-        <div>
-          <div className="flex my-2">
+      <div className="grid grid-cols-12 gap-3 md:mx-20 h-[50rem] md:h-[34rem] md:my-20 animate-fade-up animate-once animate-duration-[1500ms]">
+        <div className="col-span-12 md:col-span-6">
+          <div className="flex my-2 text-sm md:text-lg">
             <h2 className="font-montserrat font-normal text-white">
               Address :
             </h2>
@@ -20,14 +20,14 @@ const Page = () => {
               Saddar, Peshawar Cantt, Pakistan
             </p>
           </div>
-          <div className="flex my-2">
+          <div className="flex my-2 text-sm md:text-lg">
             <h2 className="font-montserrat font-normal text-white">Email :</h2>
             &nbsp;&nbsp;&nbsp;
             <p className="font-montserrat text-slate-300">
               harishummambaluch@gmail.com
             </p>
           </div>
-          <div className="flex my-2">
+          <div className="flex my-2 text-sm md:text-lg">
             <h2 className="font-montserrat font-normal text-white">
               Contact No :
             </h2>
@@ -35,7 +35,7 @@ const Page = () => {
             <p className="font-montserrat text-slate-300">+92 319 7424892</p>
           </div>
         </div>
-        <div>
+        <div className="col-span-12 md:col-span-6">
           <div class="px-4 mx-auto max-w-screen-md">
             <h2 class="mb-6 text-2xl font-montserrat tracking-tight font-normal text-center text-white">
               Send me a message

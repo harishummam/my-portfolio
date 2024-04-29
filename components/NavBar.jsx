@@ -5,7 +5,7 @@ const NavBar = () => {
   return (
     <header className="w-full">
       <nav className="text-white font-montserrat text-lg py-4">
-        <ul className="flex flex-col md:flex-row md:justify-center space-y-4 md:space-y-0 md:space-x-24">
+        <ul className="flex flex-col md:flex-row md:justify-center sm:flex-col text-center space-y-4 md:space-y-0 md:space-x-24">
           <li>
             <Link href="/" className="hover:text-gray-800 hover:underline">
               HOME

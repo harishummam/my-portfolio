@@ -17,15 +17,15 @@ const Page = () => {
   return (
     <main className="relative min-h-screen p-10 bg-gradient-to-r from-slate-600 to-slate-800">
       <NavBar />
-      <h1 className="text-center font-montserrat font-normal text-white text-3xl my-8 animate-fade-up animate-once animate-duration-[1500ms]">
+      <h1 className="text-center font-montserrat font-normal text-white text-lg md:text-3xl my-8 animate-fade-up animate-once animate-duration-[1500ms]">
         RECENT PROJECTS
       </h1>
-      <div className="grid grid-cols-2 gap-4 mb-20">
-        <div>
-          <div className="carousel carousel-center max-w-x p-4 space-x-6 bg-slate-900 rounded-box animate-fade-up animate-once animate-duration-[1500ms]">
+      <div className="grid grid-cols-12 gap-4 mb-20">
+        <div className="col-span-12 md:col-span-6">
+          <div className="carousel carousel-center md:max-w-x p-4 space-x-6 bg-slate-900 rounded-box animate-fade-up animate-once animate-duration-[1500ms]">
             {leaderboards.map((leaderboard) => (
               <div className="carousel-item">
-                <img src={leaderboard.src} className="rounded-box h-[24rem]" />
+                <img src={leaderboard.src} className="rounded-box h-[9.8rem] md:h-[24rem]" />
               </div>
             ))}
           </div>
@@ -33,7 +33,7 @@ const Page = () => {
             <h1 className="font-montserrat text-white text-center">
               Leaderboard
             </h1>
-            <p className="font-montserrat mt-2">
+            <p className="font-montserrat mt-2 text-sm md:text-md">
               A dynamic website with full CRUD operations and a secure
               authentication system developed for overseeing developer profiles,
               and fostering efficient connections between companies and

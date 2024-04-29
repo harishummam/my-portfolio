@@ -33,7 +33,7 @@ const Page = () => {
             <h1 className="font-montserrat text-white text-center">
               Leaderboard
             </h1>
-            <p className="font-montserrat mt-2 text-sm md:text-md">
+            <p className="font-montserrat mt-2 text-sm text-white md:text-md">
               A dynamic website with full CRUD operations and a secure
               authentication system developed for overseeing developer profiles,
               and fostering efficient connections between companies and

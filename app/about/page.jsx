@@ -203,7 +203,7 @@ const Page = () => {
                 <li className="mt-2">
                   <div className="=flex-row">
                     <div className="flex items-center">
-                      <FaDotCircle className="text-[23px] md:text-[10px]" />
+                      <FaDotCircle className="text-[22px] md:text-[10px]" />
                       &nbsp;&nbsp;
                       <p className="font-montserrat font-normal text-white text-md lg:text-lg">
                         Sir Syed College Mall Road | Rawalpindi, Panjab
@@ -222,7 +222,7 @@ const Page = () => {
                 <li className="mt-2">
                   <div className="=flex-row">
                     <div className="flex items-center">
-                      <FaDotCircle className="text-[23px] md:text-[10px]" />
+                      <FaDotCircle className="text-[27px] md:text-[10px]" />
                       &nbsp;&nbsp;
                       <p className="font-montserrat font-normal text-white text-md lg:text-lg">
                         Army Public School and College (FWO) | Rawalpindi,

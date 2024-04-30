@@ -151,9 +151,9 @@ const Page = () => {
               </h3>
               <ul className="text-white font-light text-md mt-4 w-[230px] lg:w-full">
                 <li>
-                  <div className="=flex-row">
+                  <div className="flex-row">
                     <div className="flex items-center">
-                      <FaDotCircle className="text-[10px]" />
+                      <FaDotCircle className="text-[17px] md:text-[10px]" />
                       &nbsp;&nbsp;
                       <p className="font-montserrat font-normal text-white text-md lg:text-lg">
                         LOGIXOS | MERN Stack Developer (Remote)
@@ -184,7 +184,7 @@ const Page = () => {
                 <li>
                   <div className="=flex-row">
                     <div className="flex items-center">
-                      <FaDotCircle className="text-[10px]" />
+                      <FaDotCircle className="text-[23px] md:text-[10px]" />
                       &nbsp;&nbsp;
                       <p className="font-montserrat font-normal text-white text-md lg:text-lg">
                         Institute of Management Sciences | Peshawar, KPK
@@ -203,7 +203,7 @@ const Page = () => {
                 <li className="mt-2">
                   <div className="=flex-row">
                     <div className="flex items-center">
-                      <FaDotCircle className="text-[10px]" />
+                      <FaDotCircle className="text-[23px] md:text-[10px]" />
                       &nbsp;&nbsp;
                       <p className="font-montserrat font-normal text-white text-md lg:text-lg">
                         Sir Syed College Mall Road | Rawalpindi, Panjab
@@ -222,7 +222,7 @@ const Page = () => {
                 <li className="mt-2">
                   <div className="=flex-row">
                     <div className="flex items-center">
-                      <FaDotCircle className="text-[10px]" />
+                      <FaDotCircle className="text-[23px] md:text-[10px]" />
                       &nbsp;&nbsp;
                       <p className="font-montserrat font-normal text-white text-md lg:text-lg">
                         Army Public School and College (FWO) | Rawalpindi,

@@ -74,7 +74,7 @@ const Page = () => {
                       <div className="flex items-center">
                         <FaDotCircle className="text-[10px]" />
                         &nbsp;
-                        <p>React</p>
+                        <p>React & NextJs</p>
                       </div>
                     </li>
                     <li>
@@ -96,6 +96,13 @@ const Page = () => {
                         <FaDotCircle className="text-[10px]" />
                         &nbsp;
                         <p>Laravel</p>
+                      </div>
+                    </li>
+                    <li>
+                      <div className="flex items-center">
+                        <FaDotCircle className="text-[10px]" />
+                        &nbsp;
+                        <p>Blockchain</p>
                       </div>
                     </li>
                   </ul>
@@ -150,6 +157,32 @@ const Page = () => {
                 EXPERIENCE
               </h3>
               <ul className="text-white font-light text-md mt-4 w-[230px] lg:w-full">
+                <li>
+                  <div className="flex-row">
+                    <div className="flex items-center">
+                      <FaDotCircle className="text-[17px] md:text-[10px]" />
+                      &nbsp;&nbsp;
+                      <p className="font-montserrat font-normal text-white text-md lg:text-lg">
+                        MLSA | Microsoft Learn Student Ambassador (BETA)
+                      </p>
+                    </div>
+                    <div className="flex items-center">
+                      <FaDotCircle className="text-[10px] invisible" />
+                      &nbsp;&nbsp;
+                      <p className="font-montserrat font-normal text-white text-sm lg:text-md">
+                        4 Months, 03 / 2024 - 06 / 2024
+                      </p>
+                    </div>
+                    <div className="flex items-center">
+                      <FaDotCircle className="text-[10px] invisible" />
+                      &nbsp;&nbsp;
+                      <p className="font-montserrat font-normal text-white text-md">
+                        Peshawar, KPK (Pakistan)
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <br />
                 <li>
                   <div className="flex-row">
                     <div className="flex items-center">

@@ -7,7 +7,7 @@ import { FaDotCircle } from "react-icons/fa";
 
 const Page = () => {
   return (
-    <main className="relative min-h-screen p-10 bg-gradient-to-r from-slate-600 to-slate-800">
+    <main className="relative min-h-screen p-10   ">
       <NavBar />
       <div className=" animate-fade-up animate-once animate-duration-[1500ms]">
         <h1 className="text-center font-montserrat font-normal text-white text-lg lg:text-3xl my-8">

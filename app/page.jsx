@@ -1,7 +1,7 @@
 import Footer from "@/components/Footer";
 import NavBar from "@/components/NavBar";
 import Image from "next/image";
-import haris from "../public/images/haris.jpg";
+import haris from "../public/images/haris.png";
 import doodle from "../public/images/doodle.png";
 
 export default function Home() {
